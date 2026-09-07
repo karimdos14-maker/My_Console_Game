@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <Windows.h>
+#include "Gems.h"
 
 struct Player {
     std::string nickName;
@@ -19,11 +20,16 @@ int main() {
     
 
     while (true) {
+        Resources resources;
+        resources.gold = 1000;
+        resources.elixir = 1000;
+        resources.dark_elixir = 0;
         Player player;
         int forCycle = 0;
         const int rows = 5;
         const int cols = 5;
         std::string choice;
+
       
         char grid[rows][cols];
 
@@ -56,8 +62,6 @@ int main() {
                     std::cout << grid[i][j] << " ";
                 }
                 std::cout << std::endl;
-            
-       
             }
         break;  
     } 
