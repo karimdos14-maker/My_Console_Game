@@ -26,19 +26,7 @@ int main() {
         resources.dark_elixir = 0;
         Player player;
         int forCycle = 0;
-        const int rows = 5;
-        const int cols = 5;
-        std::string choice;
-
-      
-        char grid[rows][cols];
-
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                grid[i][j] = '*';
-
-            }
-        }
+        std::string choice; 
         player.nickName;  
         std::cout << "***Village***" << std::endl;
         Sleep(3000);
@@ -57,12 +45,7 @@ int main() {
 
        
         std::cout << "You village" << '\n' << std::endl;
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    std::cout << grid[i][j] << " ";
-                }
-                std::cout << std::endl;
-            }
+          
         break;  
     } 
 
