@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <Windows.h>
-#include "Gems.h"
+#include "Res.h"
 
 struct Player {
     std::string nickName;
