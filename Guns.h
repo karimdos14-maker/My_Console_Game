@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-class Village
+class Guns
 {
 public:
 	const int MIN_TOWN_HALL  = 1;
