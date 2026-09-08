@@ -3,8 +3,6 @@
 class Village
 {
 public:
-	const int MAX_BUILDERS   = 6;
-	const int MIN_BUILDERS   = 1;
 	const int MIN_TOWN_HALL  = 1;
 	const int MAX_TOWN_HALL  = 18;
 	const int MAX_FENCE_LVL  = 18;
