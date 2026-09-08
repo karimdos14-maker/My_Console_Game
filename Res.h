@@ -4,7 +4,7 @@
 {
 public:
     int gold;
-    int elixir;
-    int dark_elixir;
-    int gems;   
+    int oil;
+    int liquid_gems;
+    int diamonds;   
 };
