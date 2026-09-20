@@ -1,0 +1,5 @@
+nickname=Barbarian
+gold=1000
+oil=1000
+liquid gems=0
+diamonds=200
